@@ -29,7 +29,7 @@ The project is structured following a strict separation between the presentation
 
 ```bash
 # Clone the repository
-git clone https://github.com
+git clone https://github.com/Matheus-FSantos/chronoscli.git
 
 # Navigate to the project directory
 cd chronos
