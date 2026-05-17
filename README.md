@@ -25,6 +25,38 @@ The project is structured following a strict separation between the presentation
 *   **OSHI** (Multi-platform native hardware monitoring)
 *   **GraalVM** *(Future)* (Ahead-of-Time compilation to generate instant-on native binaries)
 
+## 🔎 Aparence
+
+```
+┌── Chronos v1.0.0 ─────────────────────────────────────────── [13:41:02] ──┐
+│  [F1] Dashboard    [F2] CPU Specs    [F3] Processes    [Q] Quit           │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  💻 PROCESSOR: AMD Ryzen 5 5600X @ 3.70GHz                                │
+│  [====================--------------------] 52.4% Total Usage             │
+│                                                                           │
+│  🧠 CORE BREAKDOWN:                                                       │
+│  Core 0: [==========----------] 50%  │  Core 3: [==============------] 70%│
+│  Core 1: [=============-------] 65%  │  Core 4: [====----------------] 22%│
+│  Core 2: [======--------------] 30%  │  Core 5: [====================]100%│
+│                                                                           │
+│  ───────────────────────────────────────────────────────────────────────  │
+│                                                                           │
+│  📟 MEMORY & SYSTEM:                                                      │
+│  RAM Usage:  [========------------] 42% (6.7 GB / 16.0 GB)                │
+│  Swap/Page:  [==------------------] 10% (1.2 GB / 12.0 GB)                │
+│  Uptime:     02h 45m 12s                                                  │
+│                                                                           │
+│  ───────────────────────────────────────────────────────────────────────  │
+│                                                                           │
+│  🔥 TEMPERATURES & FANS:                                                  │
+│  CPU Package: 62°C [██████░░░░]      │  Fan Speed: 1450 RPM               │
+│                                                                           │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 💡 Use F1-F3 to switch tabs | [Q] Exit App | Update Interval: 1.0s        │
+└───────────────────────────────────────────────────────────────────────────┘
+```
+
 ## 📦 Getting Started (Development Environment)
 
 ```bash

@@ -1,10 +1,10 @@
 package io.github.matheus_fsantos;
 
-import io.github.matheus_fsantos.cli.ChronosCommand;
-import picocli.CommandLine;
+import io.github.matheus_fsantos.view.CounterApp;
+import io.github.yehorsyrin.tui.core.AliveJTUI;
 
 public class ChronosCLIApplication {
     public static void main(String[] args) {
-        new CommandLine(new ChronosCommand()).execute("--user=matheus");
+        AliveJTUI.run(new CounterApp());
     }
 }
